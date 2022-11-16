@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Boilerplate
+ * Plugin Name:       Text Box
  * Description:       Example block scaffolded with Create Block tool.
  * Requires at least: 6.1
  * Requires PHP:      7.0
@@ -20,7 +20,7 @@
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function create_block_boilerplate_block_init() {
+function create_block_text_box_block_init() {
 	register_block_type( __DIR__ . '/build' );
 }
-add_action( 'init', 'create_block_boilerplate_block_init' );
+add_action( 'init', 'create_block_text_box_block_init' );
